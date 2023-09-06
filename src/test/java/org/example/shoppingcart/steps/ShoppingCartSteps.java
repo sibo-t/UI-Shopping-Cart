@@ -44,6 +44,7 @@ public class ShoppingCartSteps {
 
     @When("the user adds the product {string}")
     public void theUserAddsTheProduct(String productName) {
+        //hello
         homePage.addProductsToCart(productName);
     }
 
